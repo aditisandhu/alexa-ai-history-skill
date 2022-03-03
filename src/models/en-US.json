@@ -22,25 +22,47 @@
         {
           "name": "GetNewFactIntent",
           "samples": [
-            "a fact",
-            "a history fact",
-            "tell me a fact",
-            "tell me a history fact",
-            "give me a fact",
-            "give me a history fact",
-            "tell me trivia"
+            "GetNewFactIntent a fact",
+            "GetNewFactIntent a history fact",
+            "GetNewFactIntent tell me a fact",
+            "GetNewFactIntent tell me a history fact",
+            "GetNewFactIntent give me a fact",
+            "GetNewFactIntent give me a history fact",
+            "GetNewFactIntent tell me trivia",
+            "GetNewFactIntent tell me history trivia",
+            "GetNewFactIntent give me trivia",
+            "GetNewFactIntent give me history trivia",
+            "GetNewFactIntent tell me information",
+            "GetNewFactIntent tell me history information",
+            "GetNewFactIntent give me information",
+            "GetNewFactIntent give me history information",
+            "GetNewFactIntent tell me history",
+            "GetNewFactIntent give me history"
           ],
           "slots": []
         },
         {
-          "name": "ExampleFactIntent",
+          "name": "GetNewYearFactIntent",
           "samples": [
-            "example utterance one",
-            "example utterance two"
+            "GetNewYearFactIntent what is an AI fact from {FACT_YEAR}",
+            "GetNewYearFactIntent give me an AI fact from {FACT_YEAR}",
+            "GetNewYearFactIntent tell me something new about AI in {FACT_YEAR}",
+            "GetNewYearFactIntent give me some new information about AI in {FACT_YEAR}",
+            "GetNewYearFactIntent tell me AI triva from {FACT_YEAR}",
+            "GetNewYearFactIntent give me AI trivia from {FACT_YEAR}",
+            "GetNewYearFactIntent give me an interesting AI fact from {FACT_YEAR}",
+            "GetNewYearFactIntent tell me an interesting AI fact from {FACT_YEAR}",
+            "GetNewYearFactIntent what was new in the AI field in {FACT_YEAR}",
+            "GetNewYearFactIntent tell me something new about AI from {FACT_YEAR}",
+            "GetNewYearFactIntent give me a fact about AI from {FACT_YEAR}",
+            "GetNewYearFactIntent tell me a fact about AI from {FACT_YEAR}",
+            "GetNewYearFactIntent what can you tell me about AI in {FACT_YEAR}",
+            "GetNewYearFactIntent what AI facts do you have from {FACT_YEAR}",
+            "GetNewYearFactIntent what was new in AI in {FACT_YEAR}"
           ],
           "slots": [
                 {
-                  "name": "EXAMPLE_FACT_NAME",
+                  "name": "FACT_YEAR",
                   "type": "AMAZON.FOUR_DIGIT_NUMBER"
                 }
               ]
