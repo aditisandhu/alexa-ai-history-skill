@@ -17,8 +17,7 @@ $ npm test
 ## Requirements
 
 - Install [Node.js](https://nodejs.org/) 
-
-- Install dependencies for the project (listed in the 'package.json folder in the 'src' directory)
+- Install dependencies listed in `src\package.json`
 
 
 This project was completed as a part of Udacity's Natural Language Processing Nanodegree.
