@@ -18,6 +18,3 @@ $ npm test
 
 - Install [Node.js](https://nodejs.org/) 
 - Install dependencies listed in `src\package.json`
-
-
-This project was completed as a part of Udacity's Natural Language Processing Nanodegree.
